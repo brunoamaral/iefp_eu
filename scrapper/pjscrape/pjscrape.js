@@ -26,7 +26,7 @@
  - Better docs, obviously.
 */
 
-phantom.injectJs('lib/md5.js');
+phantom.injectJs('./lib/md5.js');
  
 function fail(msg) {
     console.log('FATAL ERROR: ' + msg);
