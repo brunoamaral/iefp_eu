@@ -11,15 +11,15 @@ pjs.config({
 
 pjs.addSuite({
     // single URL or array
-    url: 'http://www.iefp.pt',
+    url: 'file://localhost/Users/brunoamaral/Projects/iefp/index.html',
     // single function or array, evaluated in the client
 
-	/* moreUrls: function(){return _pjs.getAnchorUrls('a');},
-    maxDepth: 10,*/
+	moreUrls: function(){return _pjs.getAnchorUrls('a');},
+    maxDepth: 10,
     // function to get some data
     scraper: function() {
         return { 
-            link: $('a href').text(),
+            link: $('a').attr('href')
         }
     }
 });
