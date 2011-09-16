@@ -5,7 +5,7 @@ pjs.config({
     format: 'csv',
     // options: 'stdout' or 'file' (set in config.outFile)
     writer: 'stdout',
-    //outFile: 'scrape_output.json'
+//    outFile: 'scrape_output.csv'
 });
 
 
@@ -15,11 +15,12 @@ pjs.addSuite({
     // single function or array, evaluated in the client
 
 	moreUrls: function(){return _pjs.getAnchorUrls('a');},
-    maxDepth: 999,
+    maxDepth: 3,
     // function to get some data
     scraper: function() {
         return { 
-            link: $('a').attr('href')
+           link: $('a').attr('href'),
+           text: $('a').text()
         }
     }
 });
