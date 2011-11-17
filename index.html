@@ -1,8 +1,14 @@
-<html>
+<html itemscope itemtype="http://schema.org/Organization">
 
 <head>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		
+		
+		<!-- google plus one button -->
+			<meta itemprop="name" content="alt.iefp">
+			<meta itemprop="description" content="O website do iefp é um recurso importante de informação para quem procura trabalho ou apoio para criar postos de trabalho. O que lhe falta é um interface mais directo e fácil de usar. O iefp.eu é uma alternativa ao actual website que responde a essa necessidade.">
+			<meta itemprop="image" content="">
+
 		<link rel="stylesheet" href="media/css/reset.css" /> 
 		<link rel="stylesheet" href="media/css/text.css" /> 
 		<link rel="stylesheet" href="media/css/960.css" /> 
@@ -14,15 +20,70 @@
 
 		<script type="text/javascript" charset="utf-8"> 
 			$(document).ready(function() {
-				$('#example').dataTable();
+				$('#example').dataTable(
+				{
+       			"bPaginate": false,
+        		}
+				);
 			} );
 		</script> 
 </head>
 
+<!-- google analytics -->
+	<script type="text/javascript">
+	
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-10997142-10']);
+	  _gaq.push(['_trackPageview']);
+	
+	  (function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	
+	</script>
+<!-- google analytics -->
+
+
+<!-- like button -->
+	<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) {return;}
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=313360992014331";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+<!-- end like button -->
+
 <body>
 
 <div class="container_12">
+	<div class="grid_12 alpha omega title">
+		<h1>Isto não é o website do IEFP</h1>
+		<h2>Instituto de Emprego e Formação Profissional</h2>
+	</div>
+	<div class="grid_12 alpha omega buttons">
+		<!-- Place this tag where you want the +1 button to render -->
+			<g:plusone annotation="inline"></g:plusone>
 
+		<!-- Place this render call where appropriate -->
+			<script type="text/javascript">
+			  window.___gcfg = {lang: 'pt-PT'};
+			
+			  (function() {
+				var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+				po.src = 'https://apis.google.com/js/plusone.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+			  })();
+			</script>
+
+		<div class="fb-like" data-href="http://iefp.eu" data-send="true" data-width="450" data-show-faces="true"></div>
+		
+
+	</div>
+	
 	<div class="grid_9 alpha">
 		<table cellpadding="0" cellspacing="0" border="0" class="display" id="example"> 
 			<thead> 
@@ -31,15 +92,248 @@
 					<th>Link</th> 
 				</tr> 
 			</thead> 
-			<tbody> 
-				<tr class="odd"> 
-					<td>Trident</td> 
-					<td>Internet Explorer 4.0</td> 
-				</tr> 
-				<tr class="even"> 
-					<td>iefp</td> 
-					<td>work place</td> 
-				</tr> 
+			<tbody><!-- data starts here -->
+					<tr><td>Mercado de Emprego</td><td><a href="http://www.iefp.pt">Homepage</a></td></tr>
+					<tr><td>FAQ</td><td><a href="http://www.iefp.pt/ESTATISTICAS/MERCADOEMPREGO/Paginas/Home.aspx" title="Mercado de Emprego">Mercado de Emprego</a></td></tr>
+					<tr><td>Entidades Empregadoras</td><td><a href="http://www.iefp.pt/FAQ/Paginas/Home.aspx" title="FAQ">FAQ</a></td></tr>
+					<tr><td>Certificação de Formadores e outros profissionais</td><td><a href="http://www.iefp.pt/FORMACAO/ENTIDADES/ENTIDADESEMPREGADORAS/Paginas/Home.aspx" title="Entidades Empregadoras">Entidades Empregadoras</a></td></tr>
+					<tr><td>Oferta de Formação de Formadores</td><td><a href="http://www.iefp.pt/FORMACAO/FORMADORES/CERTIFICACAO/Paginas/CertFormadoresOutrosProfissionais.aspx" title="Certificação de Formadores e outros profissionais">Certificação de Formadores e outros profissionais</a></td></tr>
+					<tr><td>Formação Profissional</td><td><a href="http://www.iefp.pt/FORMACAO/FORMADORES/FORMACAO/Paginas/FormacaoFormadores.aspx" title="Oferta de Formação de Formadores">Oferta de Formação de Formadores</a></td></tr>
+					<tr><td>O IEFP</td><td><a href="http://www.iefp.pt/FORMACAO/PROFISSIONAL/Paginas/FormacaoProfissional.aspx" title="Formação Profissional">Formação Profissional</a></td></tr>
+					<tr><td>Rede de Centros</td><td><a href="http://www.iefp.pt/IEFP/Paginas/Home.aspx" title="O IEFP">O IEFP</a></td></tr>
+					<tr><td>IEFP</td><td><a href="http://www.iefp.pt/IEFP/REDE/Paginas/Home.aspx" title="Rede de Centros">Rede de Centros</a></td></tr>
+					<tr><td>Mapa do Portal</td><td><a href="http://www.iefp.pt/Paginas/Home.aspx" title="IEFP">IEFP</a></td></tr>
+					<tr><td>Contacte-nos</td><td><a href="http://www.iefp.pt/Paginas/mapa.aspx" title="Mapa do Portal">Mapa do Portal</a></td></tr>
+					<tr><td>Contactos</td><td><a href="http://www.iefp.pt/Paginas/contacto.aspx" title="Contacte-nos">Contactos</a></td></tr>
+					<tr><td>Links</td><td><a href="http://www.iefp.pt/Paginas/links.aspx" title="Links">Links</a></td></tr>
+					<tr><td>Pesquisa</td><td><a href="http://www.iefp.pt/Paginas/Links.aspx" title="Links">Links</a></td></tr>
+					<tr><td>Apoios e Incentivos</td><td><a href="http://www.iefp.pt/Paginas/pesquisa.aspx" title="Pesquisa">Pesquisa</a></td></tr>
+					<tr><td>Apoios e Incentivos</td><td><a href="http://www.iefp.pt/apoios/Paginas/Home.aspx" title="Apoios e Incentivos">Apoios e Incentivos</a></td></tr>
+					<tr><td>Apoios e Incentivos</td><td><a href="http://www.iefp.pt/apoios/Paginas/Imigrantes.aspx" title="Apoios e Incentivos">Apoios e Incentivos</a></td></tr>
+					<tr><td>Documentos de Divulgação Complementares na Área da Reabilitação</td><td><a href="http://www.iefp.pt/apoios/Paginas/Formandos.aspx" title="Apoios e Incentivos">Apoios e Incentivos</a></td></tr>
+					<tr><td>Pessoas com Deficiência</td><td><a href="http://www.iefp.pt/apoios/PessoasDeficiencia/DocsDivulgacaoComplementar/Paginas/DocsDivulgacaoComplementares.aspx" title="Documentos de Divulgação Complementares na Área da Reabilitação">Documentos de Divulgação Complementares na Área da Reabilitação</a></td></tr>
+					<tr><td>Apoios à Integração, Manutenção e Reintegração no Mercado de Trabalho</td><td><a href="http://www.iefp.pt/apoios/PessoasDeficiencia/Paginas/PessoasDeficiencia.aspx" title="Pessoas com Deficiência">Pessoas com Deficiência</a></td></tr>
+					<tr><td>Apoios à Integração, Manutenção e Reintegração no Mercado de Trabalho</td><td><a href="http://www.iefp.pt/apoios/PessoasDeficiencia/ProgramaEmpregoApoioQualPessoasDefInc/ApoiosIntegracaoManutencaoReintegracaoMercadoTrabalho/Paginas/InformacaoAvaliacaoOrientacaoQualificacaoEmprego.aspx" title="Apoios à Integração, Manutenção e Reintegração no Mercado de Trabalho">Apoios à Integração, Manutenção e Reintegração no Mercado de Trabalho</a></td></tr>
+					<tr><td>Apoios à Integração, Manutenção e Reintegração no Mercado de Trabalho</td><td><a href="http://www.iefp.pt/apoios/PessoasDeficiencia/ProgramaEmpregoApoioQualPessoasDefInc/ApoiosIntegracaoManutencaoReintegracaoMercadoTrabalho/Paginas/ApoioColocacao.aspx" title="Apoios à Integração, Manutenção e Reintegração no Mercado de Trabalho">Apoios à Integração, Manutenção e Reintegração no Mercado de Trabalho</a></td></tr>
+					<tr><td>Emprego Apoiado</td><td><a href="http://www.iefp.pt/apoios/PessoasDeficiencia/ProgramaEmpregoApoioQualPessoasDefInc/ApoiosIntegracaoManutencaoReintegracaoMercadoTrabalho/Paginas/AcompanhamentoPosColocacao.aspx" title="Apoios à Integração, Manutenção e Reintegração no Mercado de Trabalho">Apoios à Integração, Manutenção e Reintegração no Mercado de Trabalho</a></td></tr>
+					<tr><td>Emprego Apoiado</td><td><a href="http://www.iefp.pt/apoios/PessoasDeficiencia/ProgramaEmpregoApoioQualPessoasDefInc/EmpregoApoiado/Paginas/EstagioInsercaoPessoasDeficienciasIncapacidades.aspx" title="Emprego Apoiado">Emprego Apoiado</a></td></tr>
+					<tr><td>Emprego Apoiado</td><td><a href="http://www.iefp.pt/apoios/PessoasDeficiencia/ProgramaEmpregoApoioQualPessoasDefInc/EmpregoApoiado/Paginas/ContratoEmpregoInsercaoPessoasDeficienciasIncapacidades.aspx" title="Emprego Apoiado">Emprego Apoiado</a></td></tr>
+					<tr><td>Emprego Apoiado</td><td><a href="http://www.iefp.pt/apoios/PessoasDeficiencia/ProgramaEmpregoApoioQualPessoasDefInc/EmpregoApoiado/Paginas/CentroEmpregoProtegido.aspx" title="Emprego Apoiado">Emprego Apoiado</a></td></tr>
+					<tr><td>Prémio de Mérito</td><td><a href="http://www.iefp.pt/apoios/PessoasDeficiencia/ProgramaEmpregoApoioQualPessoasDefInc/EmpregoApoiado/Paginas/ContratoEmpregoApoiadoEntidadesEmpregadoras.aspx" title="Emprego Apoiado">Emprego Apoiado</a></td></tr>
+					<tr><td>Apoios a Projectos de Emprego promovidos por beneficiários das prestações de desemprego</td><td><a href="http://www.iefp.pt/apoios/PessoasDeficiencia/ProgramaEmpregoApoioQualPessoasDefInc/PremioMerito/Paginas/PremioMerito.aspx" title="Prémio de Mérito">Prémio de Mérito</a></td></tr>
+					<tr><td>Fundo Europeu de Ajustamento à Globalização (FEG)</td><td><a href="http://www.iefp.pt/apoios/candidatos/CriacaoEmpregoEmpresa/BeneficiariosPrestacoesDesemprego/Paginas/BeneficiariosPrestacoesDesemprego.aspx" title="Apoios a Projectos de Emprego promovidos por beneficiários das prestações de desemprego">Apoios a Projectos de Emprego promovidos por beneficiários das prestações de desemprego</a></td></tr>
+					<tr><td>Mobilidade Geográfica</td><td><a href="http://www.iefp.pt/apoios/candidatos/FundoEuropeuAjustamentoGlobalizacao/Paginas/FundoEuropeuAjustamentoGlobalizacao.aspx" title="Fundo Europeu de Ajustamento à Globalização (FEG)">Fundo Europeu de Ajustamento à Globalização (FEG)</a></td></tr>
+					<tr><td>Candidatos a Emprego</td><td><a href="http://www.iefp.pt/apoios/candidatos/MobilidadeGeografica/Paginas/IncentivosMobilidadeGeografica.aspx" title="Mobilidade Geográfica">Mobilidade Geográfica</a></td></tr>
+					<tr><td>Candidatos a Emprego</td><td><a href="http://www.iefp.pt/apoios/candidatos/Paginas/Candidatos.aspx" title="Candidatos a Emprego">Candidatos a Emprego</a></td></tr>
+					<tr><td>Programa Vida-Emprego</td><td><a href="http://www.iefp.pt/apoios/candidatos/Paginas/EmpresasdeInsercao.aspx" title="Candidatos a Emprego">Candidatos a Emprego</a></td></tr>
+					<tr><td>Empresas</td><td><a href="http://www.iefp.pt/apoios/candidatos/ProgramaVidaEmprego/Paginas/ProgramaVidaEmprego.aspx" title="Programa Vida-Emprego">Programa Vida-Emprego</a></td></tr>
+					<tr><td>Empresas</td><td><a href="http://www.iefp.pt/apoios/empresas/Paginas/Empresas.aspx" title="Empresas">Empresas</a></td></tr>
+					<tr><td>Empresas</td><td><a href="http://www.iefp.pt/apoios/empresas/Paginas/OfertaFormativa.aspx" title="Empresas">Empresas</a></td></tr>
+					<tr><td>Estágios</td><td><a href="http://www.iefp.pt/apoios/empresas/Paginas/AcreditacaoProfissionais.aspx" title="Empresas">Empresas</a></td></tr>
+					<tr><td>Formação/Emprego</td><td><a href="http://www.iefp.pt/apoios/empresas/estagios/Paginas/Estagios.aspx" title="Estágios">Estágios</a></td></tr>
+					<tr><td>Entidades Formadoras</td><td><a href="http://www.iefp.pt/apoios/empresas/formacao/Paginas/FormacaoEmprego.aspx" title="Formação/Emprego">Formação/Emprego</a></td></tr>
+					<tr><td>Entidades Formadoras</td><td><a href="http://www.iefp.pt/apoios/entidades/Paginas/EntidadesFormadoras.aspx" title="Entidades Formadoras">Entidades Formadoras</a></td></tr>
+					<tr><td>Entidades Formadoras</td><td><a href="http://www.iefp.pt/apoios/entidades/Paginas/OfertaFormativa.aspx" title="Entidades Formadoras">Entidades Formadoras</a></td></tr>
+					<tr><td>Entidades Formadoras</td><td><a href="http://www.iefp.pt/apoios/entidades/Paginas/AcreditacaoEntidades.aspx" title="Entidades Formadoras">Entidades Formadoras</a></td></tr>
+					<tr><td>Entidades Públicas ou Privadas sem Fins Lucrativos</td><td><a href="http://www.iefp.pt/apoios/entidades/Paginas/HomologacaoCursos.aspx" title="Entidades Formadoras">Entidades Formadoras</a></td></tr>
+					<tr><td>Formação/Emprego</td><td><a href="http://www.iefp.pt/apoios/entidades_sem_fins_lucrativos/Paginas/EntidadesSemFinsLucrativos.aspx" title="Entidades Públicas ou Privadas sem Fins Lucrativos">Entidades Públicas ou Privadas sem Fins Lucrativos</a></td></tr>
+					<tr><td>Reintegração Sócio-Profissional</td><td><a href="http://www.iefp.pt/apoios/entidades_sem_fins_lucrativos/formacao/Paginas/FormacaoEmprego.aspx" title="Formação/Emprego">Formação/Emprego</a></td></tr>
+					<tr><td>Programa de Desenvolvimento Cooperativo - PRODESCOOP</td><td><a href="http://www.iefp.pt/apoios/entidades_sem_fins_lucrativos/reintegracao/Paginas/ReintegracaoSocioProfissional.aspx" title="Reintegração Sócio-Profissional">Reintegração Sócio-Profissional</a></td></tr>
+					<tr><td>Formadores e Formandos</td><td><a href="http://www.iefp.pt/apoios/entidades_sem_fins_lucrativos/sectorial/Paginas/PRODESCOOP.aspx" title="Programa de Desenvolvimento Cooperativo - PRODESCOOP">Programa de Desenvolvimento Cooperativo - PRODESCOOP</a></td></tr>
+					<tr><td>Concursos</td><td><a href="http://www.iefp.pt/apoios/formadores_e_formandos/Paginas/Formacaoformandos.aspx" title="Formadores e Formandos">Formadores e Formandos</a></td></tr>
+					<tr><td>Aquisições</td><td><a href="http://www.iefp.pt/concursos/Paginas/Concursos.aspx" title="Concursos">Concursos</a></td></tr>
+					<tr><td>Recrutamento</td><td><a href="http://www.iefp.pt/concursos/aquisicoes/Paginas/Aquisicoes.aspx" title="Aquisições">Aquisições</a></td></tr>
+					<tr><td>eLearning</td><td><a href="http://www.iefp.pt/concursos/recrutamento/Paginas/Recrutamento.aspx" title="Recrutamento">Recrutamento</a></td></tr>
+					<tr><td>Emprego</td><td><a href="http://www.iefp.pt/elearning/Paginas/eLearning.aspx" title="eLearning">eLearning</a></td></tr>
+					<tr><td>Emprego</td><td><a href="http://www.iefp.pt/emprego/Paginas/Home.aspx" title="Emprego">Emprego</a></td></tr>
+					<tr><td>Emprego</td><td><a href="http://www.iefp.pt/emprego/Paginas/ProteccaoSocialDesemprego.aspx" title="Emprego">Emprego</a></td></tr>
+					<tr><td>Soluções para Entidades</td><td><a href="http://www.iefp.pt/emprego/Paginas/Comissao_Recursos.aspx" title="Emprego">Emprego</a></td></tr>
+					<tr><td>Soluções para Entidades</td><td><a href="http://www.iefp.pt/emprego/SolucoesEntidades/Paginas/Home.aspx" title="Soluções para Entidades">Soluções para Entidades</a></td></tr>
+					<tr><td>Empresas de Trabalho Temporário</td><td><a href="http://www.iefp.pt/emprego/SolucoesEntidades/Paginas/Recrutamento.aspx" title="Soluções para Entidades">Soluções para Entidades</a></td></tr>
+					<tr><td>A Procura de Emprego</td><td><a href="http://www.iefp.pt/emprego/SolucoesEntidades/TrabalhoTemporario/Paginas/TrabalhoTemporario.aspx" title="Empresas de Trabalho Temporário">Empresas de Trabalho Temporário</a></td></tr>
+					<tr><td>A Procura de Emprego</td><td><a href="http://www.iefp.pt/emprego/procurar/Paginas/ProcuraEmprego.aspx" title="A Procura de Emprego">A Procura de Emprego</a></td></tr>
+					<tr><td>A Procura de Emprego</td><td><a href="http://www.iefp.pt/emprego/procurar/Paginas/ComoProcurar.aspx" title="A Procura de Emprego">A Procura de Emprego</a></td></tr>
+					<tr><td>A Procura de Emprego</td><td><a href="http://www.iefp.pt/emprego/procurar/Paginas/PlanoPessoalEmprego.aspx" title="A Procura de Emprego">A Procura de Emprego</a></td></tr>
+					<tr><td><a href="http://www.iefp.pt/estatisticas/Documents/GLOSSARIO_VERSAOFINAL.pdf">http://www.iefp.pt/estatisticas/Documents/GLOSSARIO_VERSAOFINAL.pdf</a></td><td><a href="http://www.iefp.pt/emprego/procurar/Paginas/ProcuraActivaEmprego.aspx" title="A Procura de Emprego">A Procura de Emprego</a></td></tr>
+					<tr><td>Relatório Mensal de Execução Física e Financeira</td><td><a href="http://www.iefp.pt/estatisticas/Documents/GLOSSARIO_VERSAOFINAL.pdf" title="http://www.iefp.pt/estatisticas/Documents/GLOSSARIO_VERSAOFINAL.pdf">http://www.iefp.pt/estatisticas/Documents/GLOSSARIO_VERSAOFINAL.pdf</a></td></tr>
+					<tr><td>Indicadores de Actividade</td><td><a href="http://www.iefp.pt/estatisticas/IndicadoresActividade/ExecucaoFinanceira/Paginas/Home.aspx" title="Relatório Mensal de Execução Física e Financeira">Relatório Mensal de Execução Física e Financeira</a></td></tr>
+					<tr><td>Síntese da Execução dos Programas e Medidas de Emprego e Formação Profissional</td><td><a href="http://www.iefp.pt/estatisticas/IndicadoresActividade/Paginas/Home.aspx" title="Indicadores de Actividade">Indicadores de Actividade</a></td></tr>
+					<tr><td>Centros de Emprego: Estatísticas Mensais</td><td><a href="http://www.iefp.pt/estatisticas/IndicadoresActividade/SinteseExecucao/Paginas/Home.aspx" title="Síntese da Execução dos Programas e Medidas de Emprego e Formação Profissional">Síntese da Execução dos Programas e Medidas de Emprego e Formação Profissional</a></td></tr>
+					<tr><td>Concelhos: Estatísticas Mensais</td><td><a href="http://www.iefp.pt/estatisticas/MercadoEmprego/CentrosEmpregoEstatisticasMensais/Paginas/Home.aspx" title="Centros de Emprego: Estatísticas Mensais">Centros de Emprego: Estatísticas Mensais</a></td></tr>
+					<tr><td>Mercado de Emprego: Estatísticas Mensais</td><td><a href="http://www.iefp.pt/estatisticas/MercadoEmprego/ConcelhosEstatisticasMensais/Paginas/Home.aspx" title="Concelhos: Estatísticas Mensais">Concelhos: Estatísticas Mensais</a></td></tr>
+					<tr><td>Informação Mensal</td><td><a href="http://www.iefp.pt/estatisticas/MercadoEmprego/EstatisticasMensais/Paginas/Home.aspx" title="Mercado de Emprego: Estatísticas Mensais">Mercado de Emprego: Estatísticas Mensais</a></td></tr>
+					<tr><td>Lei 4/2010: Estado civil do desempregado e condição laboral do cônjuge</td><td><a href="http://www.iefp.pt/estatisticas/MercadoEmprego/InformacaoMensal/Paginas/Home.aspx" title="Informação Mensal">Informação Mensal</a></td></tr>
+					<tr><td>Mercado de Emprego</td><td><a href="http://www.iefp.pt/estatisticas/MercadoEmprego/Lei_4_2010/Paginas/Lei_4_2010.aspx" title="Lei 4/2010: Estado civil do desempregado e condição laboral do cônjuge">Lei 4/2010: Estado civil do desempregado e condição laboral do cônjuge</a></td></tr>
+					<tr><td>Mercado de Emprego</td><td><a href="http://www.iefp.pt/estatisticas/MercadoEmprego/Paginas/AnaliseSectorTrabalhoTemporarioRelatoriosAnuais.aspx" title="Mercado de Emprego">Mercado de Emprego</a></td></tr>
+					<tr><td>Relatórios Anuais</td><td><a href="http://www.iefp.pt/estatisticas/MercadoEmprego/Paginas/Home.aspx" title="Mercado de Emprego">Mercado de Emprego</a></td></tr>
+					<tr><td>Relatórios Semestrais</td><td><a href="http://www.iefp.pt/estatisticas/MercadoEmprego/RelatoriosAnuais/Paginas/Home.aspx" title="Relatórios Anuais">Relatórios Anuais</a></td></tr>
+					<tr><td>Estatísticas</td><td><a href="http://www.iefp.pt/estatisticas/MercadoEmprego/RelatoriosSemestrais/Paginas/Home.aspx" title="Relatórios Semestrais">Relatórios Semestrais</a></td></tr>
+					<tr><td>Sistema Europeu de Crédito para a Educação e Formação – ECVET</td><td><a href="http://www.iefp.pt/estatisticas/Paginas/Home.aspx" title="Estatísticas">Estatísticas</a></td></tr>
+					<tr><td>Educação e Formação (Programas e Iniciativas de Âmbito Comunitário)</td><td><a href="http://www.iefp.pt/formacao/CEF/ECVET/Paginas/ECVET.aspx" title="Sistema Europeu de Crédito para a Educação e Formação – ECVET">Sistema Europeu de Crédito para a Educação e Formação – ECVET</a></td></tr>
+					<tr><td>Educação e Formação (Programas e Iniciativas de Âmbito Comunitário)</td><td><a href="http://www.iefp.pt/formacao/CEF/Paginas/Home.aspx" title="Educação e Formação (Programas e Iniciativas de Âmbito Comunitário)">Educação e Formação (Programas e Iniciativas de Âmbito Comunitário)</a></td></tr>
+					<tr><td>Legislação</td><td><a href="http://www.iefp.pt/formacao/CEF/Paginas/QEQ.aspx" title="Educação e Formação (Programas e Iniciativas de Âmbito Comunitário)">Educação e Formação (Programas e Iniciativas de Âmbito Comunitário)</a></td></tr>
+					<tr><td>Medida de Apoio ao Investimento a Entidades de Reabilitação Profissional</td><td><a href="http://www.iefp.pt/formacao/Legislacao/Paginas/Legislacao.aspx" title="Legislação">Legislação</a></td></tr>
+					<tr><td>Cursos de Especialização Tecnológica</td><td><a href="http://www.iefp.pt/formacao/MedidaApoioInvEntReabProf/Paginas/MedidaApoioInvestimentoEntidadesReabilitacaoProfissional.aspx" title="Medida de Apoio ao Investimento a Entidades de Reabilitação Profissional">Medida de Apoio ao Investimento a Entidades de Reabilitação Profissional</a></td></tr>
+					<tr><td>Cursos de Aprendizagem</td><td><a href="http://www.iefp.pt/formacao/ModalidadesFormacao/CursoEspecializacaoTecno/Paginas/CursosEspecializacaoTecnologica.aspx" title="Cursos de Especialização Tecnológica">Cursos de Especialização Tecnológica</a></td></tr>
+					<tr><td>Cursos de Educação e Formação para Jovens</td><td><a href="http://www.iefp.pt/formacao/ModalidadesFormacao/CursosAprendizagem/Paginas/CursosAprendizagem.aspx" title="Cursos de Aprendizagem">Cursos de Aprendizagem</a></td></tr>
+					<tr><td>Formação Modular Certificada</td><td><a href="http://www.iefp.pt/formacao/ModalidadesFormacao/CursosJovens/Paginas/CursosJovens.aspx" title="Cursos de Educação e Formação para Jovens">Cursos de Educação e Formação para Jovens</a></td></tr>
+					<tr><td>Iniciativa Formação para Empresários</td><td><a href="http://www.iefp.pt/formacao/ModalidadesFormacao/FormacaoModularCertificada/Paginas/FormacaoModularCertificada.aspx" title="Formação Modular Certificada">Formação Modular Certificada</a></td></tr>
+					<tr><td>Modalidades de Formação</td><td><a href="http://www.iefp.pt/formacao/ModalidadesFormacao/IniciativaFormacaoEmpresarios/Paginas/IniciativaFormacaoEmpresarios.aspx" title="Iniciativa Formação para Empresários">Iniciativa Formação para Empresários</a></td></tr>
+					<tr><td>Modalidades de Formação</td><td><a href="http://www.iefp.pt/formacao/ModalidadesFormacao/Paginas/ModalidadesdeFormacao.aspx" title="Modalidades de Formação">Modalidades de Formação</a></td></tr>
+					<tr><td>Programa Português para Todos</td><td><a href="http://www.iefp.pt/formacao/ModalidadesFormacao/Paginas/12anoincompleto.aspx" title="Modalidades de Formação">Modalidades de Formação</a></td></tr>
+					<tr><td>Formação</td><td><a href="http://www.iefp.pt/formacao/ModalidadesFormacao/ProgramaPortugalAcolhe/Paginas/ProgramaPortuguesparaTodos.aspx" title="Programa Português para Todos">Programa Português para Todos</a></td></tr>
+					<tr><td>Programa de Qualificação de Pessoas com Deficiências e Incapacidades</td><td><a href="http://www.iefp.pt/formacao/Paginas/Home.aspx" title="Formação">Formação</a></td></tr>
+					<tr><td>Projectos e Parcerias</td><td><a href="http://www.iefp.pt/formacao/Prog_Qualif_Pessoas_Def_Incap/Paginas/ProgramadeQualificacaodePessoascomDeficienciaseIncapacidades.aspx" title="Programa de Qualificação de Pessoas com Deficiências e Incapacidades">Programa de Qualificação de Pessoas com Deficiências e Incapacidades</a></td></tr>
+					<tr><td>Reconhecimento, Validação e Certificação de Competências – RVCC</td><td><a href="http://www.iefp.pt/formacao/ProjectosParcerias/Paginas/ProjectosParcerias.aspx" title="Projectos e Parcerias">Projectos e Parcerias</a></td></tr>
+					<tr><td>Reconhecimento, Validação e Certificação de Competências – RVCC</td><td><a href="http://www.iefp.pt/formacao/RVCC/Paginas/RVCC.aspx" title="Reconhecimento, Validação e Certificação de Competências – RVCC">Reconhecimento, Validação e Certificação de Competências – RVCC</a></td></tr>
+					<tr><td>Reconhecimento, Validação e Certificação de Competências – RVCC</td><td><a href="http://www.iefp.pt/formacao/RVCC/Paginas/RVCCEscolar.aspx" title="Reconhecimento, Validação e Certificação de Competências – RVCC">Reconhecimento, Validação e Certificação de Competências – RVCC</a></td></tr>
+					<tr><td>Reconhecimento, Validação e Certificação de Competências – RVCC</td><td><a href="http://www.iefp.pt/formacao/RVCC/Paginas/RVCCProfissional.aspx" title="Reconhecimento, Validação e Certificação de Competências – RVCC">Reconhecimento, Validação e Certificação de Competências – RVCC</a></td></tr>
+					<tr><td>Oferta de Certificação</td><td><a href="http://www.iefp.pt/formacao/RVCC/Paginas/Links.aspx" title="Reconhecimento, Validação e Certificação de Competências – RVCC">Reconhecimento, Validação e Certificação de Competências – RVCC</a></td></tr>
+					<tr><td>Oferta de Homologação de Cursos</td><td><a href="http://www.iefp.pt/formacao/certificacao/OfertaCertificacao/Paginas/OfertaCertificacao.aspx" title="Oferta de Certificação">Oferta de Certificação</a></td></tr>
+					<tr><td>Sistema de Regulação de Acesso a Profissões</td><td><a href="http://www.iefp.pt/formacao/certificacao/OfertaHomologacao/Paginas/OfertaHomologacaoCursos.aspx" title="Oferta de Homologação de Cursos">Oferta de Homologação de Cursos</a></td></tr>
+					<tr><td>Profissões Regulamentadas</td><td><a href="http://www.iefp.pt/formacao/certificacao/Paginas/CertificacaoProfissional.aspx" title="Sistema de Regulação de Acesso a Profissões">Sistema de Regulação de Acesso a Profissões</a></td></tr>
+					<tr><td>Plataforma eLearning</td><td><a href="http://www.iefp.pt/formacao/certificacao/ProfissoesRegulamentadas/Paginas/ProfissoesRegulamentadas.aspx" title="Profissões Regulamentadas">Profissões Regulamentadas</a></td></tr>
+					<tr><td>Entidades Empregadoras</td><td><a href="http://www.iefp.pt/formacao/elearning/Paginas/eLearning.aspx" title="Plataforma eLearning">Plataforma eLearning</a></td></tr>
+					<tr><td>Entidades Formadoras</td><td><a href="http://www.iefp.pt/formacao/entidades/EntidadesEmpregadoras/Paginas/Home.aspx" title="Entidades Empregadoras">Entidades Empregadoras</a></td></tr>
+					<tr><td>Entidades</td><td><a href="http://www.iefp.pt/formacao/entidades/EntidadesFormadoras/Paginas/Home.aspx" title="Entidades Formadoras">Entidades Formadoras</a></td></tr>
+					<tr><td>Newsletter Electrónica</td><td><a href="http://www.iefp.pt/formacao/entidades/Paginas/Home.aspx" title="Entidades">Entidades</a></td></tr>
+					<tr><td>Formadores</td><td><a href="http://www.iefp.pt/formacao/formadores/Newsletter/Paginas/Newsletter.aspx" title="Newsletter Electrónica">Newsletter Electrónica</a></td></tr>
+					<tr><td>Formadores</td><td><a href="http://www.iefp.pt/formacao/formadores/Paginas/Formadores.aspx" title="Formadores">Formadores</a></td></tr>
+					<tr><td>Recursos Técnico-pedagógicos</td><td><a href="http://www.iefp.pt/formacao/formadores/Paginas/eLearningnoIEFP.aspx" title="Formadores">Formadores</a></td></tr>
+					<tr><td>Bolsa Nacional de Formadores</td><td><a href="http://www.iefp.pt/formacao/formadores/Recursos/Paginas/RecursosTecnicoPedagogicos.aspx" title="Recursos Técnico-pedagógicos">Recursos Técnico-pedagógicos</a></td></tr>
+					<tr><td>Certificação Individual – Formador</td><td><a href="http://www.iefp.pt/formacao/formadores/certificacao/BolsaNacionalFormadores/Paginas/BolsaFormadores.aspx" title="Bolsa Nacional de Formadores">Bolsa Nacional de Formadores</a></td></tr>
+					<tr><td>Certificação Individual – Formador</td><td><a href="http://www.iefp.pt/formacao/formadores/certificacao/CertificacaoIndividual/Paginas/PedagogicaFormador.aspx" title="Certificação Individual – Formador">Certificação Individual – Formador</a></td></tr>
+					<tr><td>Certificação de Formadores e outros profissionais</td><td><a href="http://www.iefp.pt/formacao/formadores/certificacao/CertificacaoIndividual/Paginas/CAP.aspx" title="Certificação Individual – Formador">Certificação Individual – Formador</a></td></tr>
+					<tr><td><a href="http://www.iefp.pt/formacao/formadores/certificacao/PerfisProfissionais/Documents/FORMADOR-NET.pdf">http://www.iefp.pt/formacao/formadores/certificacao/PerfisProfissionais/Documents/FORMADOR-NET.pdf</a></td><td><a href="http://www.iefp.pt/formacao/formadores/certificacao/Paginas/CertFormadoresOutrosProfissionais.aspx" title="Certificação de Formadores e outros profissionais">Certificação de Formadores e outros profissionais</a></td></tr>
+					<tr><td>CNQF</td><td><a href="http://www.iefp.pt/formacao/formadores/certificacao/PerfisProfissionais/Documents/FORMADOR-NET.pdf" title="http://www.iefp.pt/formacao/formadores/certificacao/PerfisProfissionais/Documents/FORMADOR-NET.pdf">http://www.iefp.pt/formacao/formadores/certificacao/PerfisProfissionais/Documents/FORMADOR-NET.pdf</a></td></tr>
+					<tr><td>Oferta Formativa para Formadores</td><td><a href="http://www.iefp.pt/formacao/formadores/cnqf/Paginas/CNQF.aspx" title="CNQF">CNQF</a></td></tr>
+					<tr><td>Oferta de Formação de Formadores</td><td><a href="http://www.iefp.pt/formacao/formadores/formacao/OfertaFormadores/Paginas/WorkshopsCRCIEFPMediatecaFormacaoProfissional.aspx" title="Oferta Formativa para Formadores">Oferta Formativa para Formadores</a></td></tr>
+					<tr><td>Oferta de Formação de Formadores</td><td><a href="http://www.iefp.pt/formacao/formadores/formacao/Paginas/FormacaoFormadores.aspx" title="Oferta de Formação de Formadores">Oferta de Formação de Formadores</a></td></tr>
+					<tr><td>Oferta de Formação de Formadores</td><td><a href="http://www.iefp.pt/formacao/formadores/formacao/Paginas/Homologacao.aspx" title="Oferta de Formação de Formadores">Oferta de Formação de Formadores</a></td></tr>
+					<tr><td>Formação Inicial</td><td><a href="http://www.iefp.pt/formacao/formadores/formacao/Paginas/RenovacaoHomologacao.aspx" title="Oferta de Formação de Formadores">Oferta de Formação de Formadores</a></td></tr>
+					<tr><td>Referenciais de Formação Pedagógica de Formadores</td><td><a href="http://www.iefp.pt/formacao/formadores/formacao/ReferenciaisFormadores/Formacao/Paginas/ReferencialBaseFormadores.aspx" title="Formação Inicial">Formação Inicial</a></td></tr>
+					<tr><td>Formadores em Rede</td><td><a href="http://www.iefp.pt/formacao/formadores/formacao/ReferenciaisFormadores/Paginas/ReferenciaisFormacaoPedagogicaFormadores.aspx" title="Referenciais de Formação Pedagógica de Formadores">Referenciais de Formação Pedagógica de Formadores</a></td></tr>
+					<tr><td>Inscrições</td><td><a href="http://www.iefp.pt/formacao/formadores/rede/Paginas/FormadoresRede.aspx" title="Formadores em Rede">Formadores em Rede</a></td></tr>
+					<tr><td>Formação Profissional</td><td><a href="http://www.iefp.pt/formacao/profissional/Inscricoes/Paginas/Inscricoes.aspx" title="Inscrições">Inscrições</a></td></tr>
+					<tr><td>Formulários</td><td><a href="http://www.iefp.pt/formacao/profissional/Paginas/FormacaoProfissional.aspx" title="Formação Profissional">Formação Profissional</a></td></tr>
+					<tr><td><a href="http://www.iefp.pt/iefp/Mediateca/Documents/Destaques/NEWS01_2008.pdf">http://www.iefp.pt/iefp/Mediateca/Documents/Destaques/NEWS01_2008.pdf</a></td><td><a href="http://www.iefp.pt/formularios/Paginas/Home.aspx" title="Formulários">Formulários</a></td></tr>
+					<tr><td><a href="http://www.iefp.pt/iefp/Mediateca/Documents/Destaques/1118QF_DESTAQUES56_DEZEMBRO7.pdf">http://www.iefp.pt/iefp/Mediateca/Documents/Destaques/1118QF_DESTAQUES56_DEZEMBRO7.pdf</a></td><td><a href="http://www.iefp.pt/iefp/Mediateca/Documents/Destaques/NEWS01_2008.pdf" title="http://www.iefp.pt/iefp/Mediateca/Documents/Destaques/NEWS01_2008.pdf">http://www.iefp.pt/iefp/Mediateca/Documents/Destaques/NEWS01_2008.pdf</a></td></tr>
+					<tr><td><a href="http://www.iefp.pt/iefp/Mediateca/Documents/Destaques/1117QF_DESTAQUES55_NOVEMBRO7.pdf">http://www.iefp.pt/iefp/Mediateca/Documents/Destaques/1117QF_DESTAQUES55_NOVEMBRO7.pdf</a></td><td><a href="http://www.iefp.pt/iefp/Mediateca/Documents/Destaques/1118QF_DESTAQUES56_DEZEMBRO7.pdf" title="http://www.iefp.pt/iefp/Mediateca/Documents/Destaques/1118QF_DESTAQUES56_DEZEMBRO7.pdf">http://www.iefp.pt/iefp/Mediateca/Documents/Destaques/1118QF_DESTAQUES56_DEZEMBRO7.pdf</a></td></tr>
+					<tr><td><a href="http://www.iefp.pt/iefp/Mediateca/Documents/Destaques/1115QF_DESTAQUES54_OUTUBRO7.pdf">http://www.iefp.pt/iefp/Mediateca/Documents/Destaques/1115QF_DESTAQUES54_OUTUBRO7.pdf</a></td><td><a href="http://www.iefp.pt/iefp/Mediateca/Documents/Destaques/1117QF_DESTAQUES55_NOVEMBRO7.pdf" title="http://www.iefp.pt/iefp/Mediateca/Documents/Destaques/1117QF_DESTAQUES55_NOVEMBRO7.pdf">http://www.iefp.pt/iefp/Mediateca/Documents/Destaques/1117QF_DESTAQUES55_NOVEMBRO7.pdf</a></td></tr>
+					<tr><td><a href="http://www.iefp.pt/iefp/Mediateca/Documents/Destaques/1113QF_DESTAQUES53_SETEMBRO7.pdf">http://www.iefp.pt/iefp/Mediateca/Documents/Destaques/1113QF_DESTAQUES53_SETEMBRO7.pdf</a></td><td><a href="http://www.iefp.pt/iefp/Mediateca/Documents/Destaques/1115QF_DESTAQUES54_OUTUBRO7.pdf" title="http://www.iefp.pt/iefp/Mediateca/Documents/Destaques/1115QF_DESTAQUES54_OUTUBRO7.pdf">http://www.iefp.pt/iefp/Mediateca/Documents/Destaques/1115QF_DESTAQUES54_OUTUBRO7.pdf</a></td></tr>
+					<tr><td><a href="http://www.iefp.pt/iefp/Mediateca/Documents/Destaques/1111QF_DESTAQUES52_JULHO7.pdf">http://www.iefp.pt/iefp/Mediateca/Documents/Destaques/1111QF_DESTAQUES52_JULHO7.pdf</a></td><td><a href="http://www.iefp.pt/iefp/Mediateca/Documents/Destaques/1113QF_DESTAQUES53_SETEMBRO7.pdf" title="http://www.iefp.pt/iefp/Mediateca/Documents/Destaques/1113QF_DESTAQUES53_SETEMBRO7.pdf">http://www.iefp.pt/iefp/Mediateca/Documents/Destaques/1113QF_DESTAQUES53_SETEMBRO7.pdf</a></td></tr>
+					<tr><td><a href="http://www.iefp.pt/iefp/Mediateca/Documents/Destaques/1109QF_DESTAQUES51_JUNHO7.pdf">http://www.iefp.pt/iefp/Mediateca/Documents/Destaques/1109QF_DESTAQUES51_JUNHO7.pdf</a></td><td><a href="http://www.iefp.pt/iefp/Mediateca/Documents/Destaques/1111QF_DESTAQUES52_JULHO7.pdf" title="http://www.iefp.pt/iefp/Mediateca/Documents/Destaques/1111QF_DESTAQUES52_JULHO7.pdf">http://www.iefp.pt/iefp/Mediateca/Documents/Destaques/1111QF_DESTAQUES52_JULHO7.pdf</a></td></tr>
+					<tr><td><a href="http://www.iefp.pt/iefp/Mediateca/Documents/Destaques/1107RF_DESTAQUES50_MAIOL7.pdf">http://www.iefp.pt/iefp/Mediateca/Documents/Destaques/1107RF_DESTAQUES50_MAIOL7.pdf</a></td><td><a href="http://www.iefp.pt/iefp/Mediateca/Documents/Destaques/1109QF_DESTAQUES51_JUNHO7.pdf" title="http://www.iefp.pt/iefp/Mediateca/Documents/Destaques/1109QF_DESTAQUES51_JUNHO7.pdf">http://www.iefp.pt/iefp/Mediateca/Documents/Destaques/1109QF_DESTAQUES51_JUNHO7.pdf</a></td></tr>
+					<tr><td><a href="http://www.iefp.pt/iefp/Mediateca/Documents/Destaques/1104RF_DESTAQUES49_ABRIL7.pdf">http://www.iefp.pt/iefp/Mediateca/Documents/Destaques/1104RF_DESTAQUES49_ABRIL7.pdf</a></td><td><a href="http://www.iefp.pt/iefp/Mediateca/Documents/Destaques/1107RF_DESTAQUES50_MAIOL7.pdf" title="http://www.iefp.pt/iefp/Mediateca/Documents/Destaques/1107RF_DESTAQUES50_MAIOL7.pdf">http://www.iefp.pt/iefp/Mediateca/Documents/Destaques/1107RF_DESTAQUES50_MAIOL7.pdf</a></td></tr>
+					<tr><td><a href="http://www.iefp.pt/iefp/Mediateca/Documents/Destaques/1103RF_DESTAQUES48_MARCO7.pdf">http://www.iefp.pt/iefp/Mediateca/Documents/Destaques/1103RF_DESTAQUES48_MARCO7.pdf</a></td><td><a href="http://www.iefp.pt/iefp/Mediateca/Documents/Destaques/1104RF_DESTAQUES49_ABRIL7.pdf" title="http://www.iefp.pt/iefp/Mediateca/Documents/Destaques/1104RF_DESTAQUES49_ABRIL7.pdf">http://www.iefp.pt/iefp/Mediateca/Documents/Destaques/1104RF_DESTAQUES49_ABRIL7.pdf</a></td></tr>
+					<tr><td><a href="http://www.iefp.pt/iefp/Mediateca/Documents/Destaques/1101RF_DESTAQUES47_FEVEREIRO7.pdf">http://www.iefp.pt/iefp/Mediateca/Documents/Destaques/1101RF_DESTAQUES47_FEVEREIRO7.pdf</a></td><td><a href="http://www.iefp.pt/iefp/Mediateca/Documents/Destaques/1103RF_DESTAQUES48_MARCO7.pdf" title="http://www.iefp.pt/iefp/Mediateca/Documents/Destaques/1103RF_DESTAQUES48_MARCO7.pdf">http://www.iefp.pt/iefp/Mediateca/Documents/Destaques/1103RF_DESTAQUES48_MARCO7.pdf</a></td></tr>
+					<tr><td><a href="http://www.iefp.pt/iefp/Mediateca/Documents/Destaques/1099RF_DESTAQUES46_JANEIRO7.pdf">http://www.iefp.pt/iefp/Mediateca/Documents/Destaques/1099RF_DESTAQUES46_JANEIRO7.pdf</a></td><td><a href="http://www.iefp.pt/iefp/Mediateca/Documents/Destaques/1101RF_DESTAQUES47_FEVEREIRO7.pdf" title="http://www.iefp.pt/iefp/Mediateca/Documents/Destaques/1101RF_DESTAQUES47_FEVEREIRO7.pdf">http://www.iefp.pt/iefp/Mediateca/Documents/Destaques/1101RF_DESTAQUES47_FEVEREIRO7.pdf</a></td></tr>
+					<tr><td><a href="http://www.iefp.pt/iefp/Mediateca/Documents/Eventos/Programa.doc">http://www.iefp.pt/iefp/Mediateca/Documents/Eventos/Programa.doc</a></td><td><a href="http://www.iefp.pt/iefp/Mediateca/Documents/Destaques/1099RF_DESTAQUES46_JANEIRO7.pdf" title="http://www.iefp.pt/iefp/Mediateca/Documents/Destaques/1099RF_DESTAQUES46_JANEIRO7.pdf">http://www.iefp.pt/iefp/Mediateca/Documents/Destaques/1099RF_DESTAQUES46_JANEIRO7.pdf</a></td></tr>
+					<tr><td><a href="http://www.iefp.pt/iefp/Mediateca/Documents/Eventos/Programa_interculturalidade.doc">http://www.iefp.pt/iefp/Mediateca/Documents/Eventos/Programa_interculturalidade.doc</a></td><td><a href="http://www.iefp.pt/iefp/Mediateca/Documents/Eventos/Programa.doc" title="http://www.iefp.pt/iefp/Mediateca/Documents/Eventos/Programa.doc">http://www.iefp.pt/iefp/Mediateca/Documents/Eventos/Programa.doc</a></td></tr>
+					<tr><td><a href="http://www.iefp.pt/iefp/Mediateca/Documents/Eventos/P20080318.doc">http://www.iefp.pt/iefp/Mediateca/Documents/Eventos/P20080318.doc</a></td><td><a href="http://www.iefp.pt/iefp/Mediateca/Documents/Eventos/Programa_interculturalidade.doc" title="http://www.iefp.pt/iefp/Mediateca/Documents/Eventos/Programa_interculturalidade.doc">http://www.iefp.pt/iefp/Mediateca/Documents/Eventos/Programa_interculturalidade.doc</a></td></tr>
+					<tr><td><a href="http://www.iefp.pt/iefp/Mediateca/Documents/Eventos/P_IGUALDADE20071106_2.doc">http://www.iefp.pt/iefp/Mediateca/Documents/Eventos/P_IGUALDADE20071106_2.doc</a></td><td><a href="http://www.iefp.pt/iefp/Mediateca/Documents/Eventos/P20080318.doc" title="http://www.iefp.pt/iefp/Mediateca/Documents/Eventos/P20080318.doc">http://www.iefp.pt/iefp/Mediateca/Documents/Eventos/P20080318.doc</a></td></tr>
+					<tr><td><a href="http://www.iefp.pt/iefp/Mediateca/Documents/Eventos/2009_05_20_Workshop_animacao_Territorial_Economia_Social/Programa_EconomSocial_AnimTerritorial_20090520T3.doc">http://www.iefp.pt/iefp/Mediateca/Documents/Eventos/2009_05_20_Workshop_animacao_Territorial_Economia_Social/Programa_EconomSocial_AnimTerritorial_20090520T3.doc</a></td><td><a href="http://www.iefp.pt/iefp/Mediateca/Documents/Eventos/P_IGUALDADE20071106_2.doc" title="http://www.iefp.pt/iefp/Mediateca/Documents/Eventos/P_IGUALDADE20071106_2.doc">http://www.iefp.pt/iefp/Mediateca/Documents/Eventos/P_IGUALDADE20071106_2.doc</a></td></tr>
+					<tr><td><a href="http://www.iefp.pt/iefp/Mediateca/Documents/Eventos/2009_05_20_Workshop_animacao_Territorial_Economia_Social/Ficha_Inscricao_20090520.doc">http://www.iefp.pt/iefp/Mediateca/Documents/Eventos/2009_05_20_Workshop_animacao_Territorial_Economia_Social/Ficha_Inscricao_20090520.doc</a></td><td><a href="http://www.iefp.pt/iefp/Mediateca/Documents/Eventos/2009_05_20_Workshop_animacao_Territorial_Economia_Social/Programa_EconomSocial_AnimTerritorial_20090520T3.doc" title="http://www.iefp.pt/iefp/Mediateca/Documents/Eventos/2009_05_20_Workshop_animacao_Territorial_Economia_Social/Programa_EconomSocial_AnimTerritorial_20090520T3.doc">http://www.iefp.pt/iefp/Mediateca/Documents/Eventos/2009_05_20_Workshop_animacao_Territorial_Economia_Social/Programa_EconomSocial_AnimTerritorial_20090520T3.doc</a></td></tr>
+					<tr><td><a href="http://www.iefp.pt/iefp/Mediateca/Documents/Eventos/2009_05_20_Workshop_animacao_Territorial_Economia_Social/Localizacao.pdf">http://www.iefp.pt/iefp/Mediateca/Documents/Eventos/2009_05_20_Workshop_animacao_Territorial_Economia_Social/Localizacao.pdf</a></td><td><a href="http://www.iefp.pt/iefp/Mediateca/Documents/Eventos/2009_05_20_Workshop_animacao_Territorial_Economia_Social/Ficha_Inscricao_20090520.doc" title="http://www.iefp.pt/iefp/Mediateca/Documents/Eventos/2009_05_20_Workshop_animacao_Territorial_Economia_Social/Ficha_Inscricao_20090520.doc">http://www.iefp.pt/iefp/Mediateca/Documents/Eventos/2009_05_20_Workshop_animacao_Territorial_Economia_Social/Ficha_Inscricao_20090520.doc</a></td></tr>
+					<tr><td><a href="http://www.iefp.pt/iefp/Mediateca/Documents/Mediateca/Lista_de_Classifcacao.doc">http://www.iefp.pt/iefp/Mediateca/Documents/Mediateca/Lista_de_Classifcacao.doc</a></td><td><a href="http://www.iefp.pt/iefp/Mediateca/Documents/Eventos/2009_05_20_Workshop_animacao_Territorial_Economia_Social/Localizacao.pdf" title="http://www.iefp.pt/iefp/Mediateca/Documents/Eventos/2009_05_20_Workshop_animacao_Territorial_Economia_Social/Localizacao.pdf">http://www.iefp.pt/iefp/Mediateca/Documents/Eventos/2009_05_20_Workshop_animacao_Territorial_Economia_Social/Localizacao.pdf</a></td></tr>
+					<tr><td><a href="http://www.iefp.pt/iefp/Mediateca/Documents/Regulamento/REGULAMENTO%20DE%20FUNCIONAMENTOCNQF.doc">http://www.iefp.pt/iefp/Mediateca/Documents/Regulamento/REGULAMENTO%20DE%20FUNCIONAMENTOCNQF.doc</a></td><td><a href="http://www.iefp.pt/iefp/Mediateca/Documents/Mediateca/Lista_de_Classifcacao.doc" title="http://www.iefp.pt/iefp/Mediateca/Documents/Mediateca/Lista_de_Classifcacao.doc">http://www.iefp.pt/iefp/Mediateca/Documents/Mediateca/Lista_de_Classifcacao.doc</a></td></tr>
+					<tr><td><a href="http://www.iefp.pt/iefp/Mediateca/Documents/Regulamento/PROPOSTA_CNQF.doc">http://www.iefp.pt/iefp/Mediateca/Documents/Regulamento/PROPOSTA_CNQF.doc</a></td><td><a href="http://www.iefp.pt/iefp/Mediateca/Documents/Regulamento/REGULAMENTO%20DE%20FUNCIONAMENTOCNQF.doc" title="http://www.iefp.pt/iefp/Mediateca/Documents/Regulamento/REGULAMENTO%20DE%20FUNCIONAMENTOCNQF.doc">http://www.iefp.pt/iefp/Mediateca/Documents/Regulamento/REGULAMENTO%20DE%20FUNCIONAMENTOCNQF.doc</a></td></tr>
+					<tr><td><a href="http://www.iefp.pt/iefp/Mediateca/Documents/Regulamento/FICHA%20DE%20EMPRESTIMOCNQF.doc">http://www.iefp.pt/iefp/Mediateca/Documents/Regulamento/FICHA%20DE%20EMPRESTIMOCNQF.doc</a></td><td><a href="http://www.iefp.pt/iefp/Mediateca/Documents/Regulamento/PROPOSTA_CNQF.doc" title="http://www.iefp.pt/iefp/Mediateca/Documents/Regulamento/PROPOSTA_CNQF.doc">http://www.iefp.pt/iefp/Mediateca/Documents/Regulamento/PROPOSTA_CNQF.doc</a></td></tr>
+					<tr><td><a href="http://www.iefp.pt/iefp/Mediateca/Documents/Regulamento/QUESTIONARIO_0.doc">http://www.iefp.pt/iefp/Mediateca/Documents/Regulamento/QUESTIONARIO_0.doc</a></td><td><a href="http://www.iefp.pt/iefp/Mediateca/Documents/Regulamento/FICHA%20DE%20EMPRESTIMOCNQF.doc" title="http://www.iefp.pt/iefp/Mediateca/Documents/Regulamento/FICHA%20DE%20EMPRESTIMOCNQF.doc">http://www.iefp.pt/iefp/Mediateca/Documents/Regulamento/FICHA%20DE%20EMPRESTIMOCNQF.doc</a></td></tr>
+					<tr><td>Mediateca da Formação Profissional</td><td><a href="http://www.iefp.pt/iefp/Mediateca/Documents/Regulamento/QUESTIONARIO_0.doc" title="http://www.iefp.pt/iefp/Mediateca/Documents/Regulamento/QUESTIONARIO_0.doc">http://www.iefp.pt/iefp/Mediateca/Documents/Regulamento/QUESTIONARIO_0.doc</a></td></tr>
+					<tr><td>Mediateca da Formação Profissional</td><td><a href="http://www.iefp.pt/iefp/Mediateca/Paginas/Home.aspx" title="Mediateca da Formação Profissional">Mediateca da Formação Profissional</a></td></tr>
+					<tr><td>Mediateca da Formação Profissional</td><td><a href="http://www.iefp.pt/iefp/Mediateca/Paginas/HorarioContactos.aspx" title="Mediateca da Formação Profissional">Mediateca da Formação Profissional</a></td></tr>
+					<tr><td>Mediateca da Formação Profissional</td><td><a href="http://www.iefp.pt/iefp/Mediateca/Paginas/Destaques.aspx" title="Mediateca da Formação Profissional">Mediateca da Formação Profissional</a></td></tr>
+					<tr><td>Mediateca da Formação Profissional</td><td><a href="http://www.iefp.pt/iefp/Mediateca/Paginas/Catalogo.aspx" title="Mediateca da Formação Profissional">Mediateca da Formação Profissional</a></td></tr>
+					<tr><td>Mediateca da Formação Profissional</td><td><a href="http://www.iefp.pt/iefp/Mediateca/Paginas/Regulamento.aspx" title="Mediateca da Formação Profissional">Mediateca da Formação Profissional</a></td></tr>
+					<tr><td>Mediateca da Formação Profissional</td><td><a href="http://www.iefp.pt/iefp/Mediateca/Paginas/Eventos.aspx" title="Mediateca da Formação Profissional">Mediateca da Formação Profissional</a></td></tr>
+					<tr><td>O IEFP</td><td><a href="http://www.iefp.pt/iefp/Mediateca/Paginas/Comunicacoes.aspx" title="Mediateca da Formação Profissional">Mediateca da Formação Profissional</a></td></tr>
+					<tr><td>O IEFP</td><td><a href="http://www.iefp.pt/iefp/Paginas/CentroDocumentacao.aspx" title="O IEFP">O IEFP</a></td></tr>
+					<tr><td>O IEFP</td><td><a href="http://www.iefp.pt/iefp/Paginas/Legislacao.aspx" title="O IEFP">O IEFP</a></td></tr>
+					<tr><td>Dirigir - Revista para Chefias</td><td><a href="http://www.iefp.pt/iefp/Paginas/ComissaoParitaria.aspx" title="O IEFP">O IEFP</a></td></tr>
+					<tr><td>Formar - Revista para Formadores</td><td><a href="http://www.iefp.pt/iefp/publicacoes/Dirigir/Paginas/Home.aspx" title="Dirigir - Revista para Chefias">Dirigir - Revista para Chefias</a></td></tr>
+					<tr><td>Integrar - Revista sobre Reabilitação</td><td><a href="http://www.iefp.pt/iefp/publicacoes/Formar/Paginas/Home.aspx" title="Formar - Revista para Formadores">Formar - Revista para Formadores</a></td></tr>
+					<tr><td>Publicações</td><td><a href="http://www.iefp.pt/iefp/publicacoes/Integrar/Paginas/Home.aspx" title="Integrar - Revista sobre Reabilitação">Integrar - Revista sobre Reabilitação</a></td></tr>
+					<tr><td>Pesquisa</td><td><a href="http://www.iefp.pt/iefp/publicacoes/Paginas/Home.aspx" title="Publicações">Publicações</a></td></tr>
+					<tr><td>Centro de Formação Profissional de Gestão Directa</td><td><a href="http://www.iefp.pt/iefp/publicacoes/Paginas/Pesquisa.aspx" title="Pesquisa">Pesquisa</a></td></tr>
+					<tr><td>Centro de Formação Profissional de Gestão Directa</td><td><a href="http://www.iefp.pt/iefp/rede/CFPGD/Paginas/Home.aspx" title="Centro de Formação Profissional de Gestão Directa">Centro de Formação Profissional de Gestão Directa</a></td></tr>
+					<tr><td>Centros de Formação Profissional de Gestão Participada</td><td><a href="http://www.iefp.pt/iefp/rede/CFPGD/Paginas/Home_old.aspx" title="Centro de Formação Profissional de Gestão Directa">Centro de Formação Profissional de Gestão Directa</a></td></tr>
+					<tr><td>Delegação Regional do Alentejo</td><td><a href="http://www.iefp.pt/iefp/rede/CFPGP/Paginas/CFPGP.aspx" title="Centros de Formação Profissional de Gestão Participada">Centros de Formação Profissional de Gestão Participada</a></td></tr>
+					<tr><td>Delegação Regional do Algarve</td><td><a href="http://www.iefp.pt/iefp/rede/CentrosEmprego/DRAlentejo/Paginas/Home.aspx" title="Delegação Regional do Alentejo">Delegação Regional do Alentejo</a></td></tr>
+					<tr><td>Delegação Regional do Centro</td><td><a href="http://www.iefp.pt/iefp/rede/CentrosEmprego/DRAlgarve/Paginas/Home.aspx" title="Delegação Regional do Algarve">Delegação Regional do Algarve</a></td></tr>
+					<tr><td>Delegação Regional de Lisboa e Vale do Tejo</td><td><a href="http://www.iefp.pt/iefp/rede/CentrosEmprego/DRCentro/Paginas/Home.aspx" title="Delegação Regional do Centro">Delegação Regional do Centro</a></td></tr>
+					<tr><td>Delegação Regional do Norte</td><td><a href="http://www.iefp.pt/iefp/rede/CentrosEmprego/DRLisboa/Paginas/Home.aspx" title="Delegação Regional de Lisboa e Vale do Tejo">Delegação Regional de Lisboa e Vale do Tejo</a></td></tr>
+					<tr><td>Centros de Emprego</td><td><a href="http://www.iefp.pt/iefp/rede/CentrosEmprego/DRNorte/Paginas/Home.aspx" title="Delegação Regional do Norte">Delegação Regional do Norte</a></td></tr>
+					<tr><td>Rede de Centros</td><td><a href="http://www.iefp.pt/iefp/rede/CentrosEmprego/Paginas/Home.aspx" title="Centros de Emprego">Centros de Emprego</a></td></tr>
+					<tr><td>Rede de Centros</td><td><a href="http://www.iefp.pt/iefp/rede/Paginas/Centros_Emprego_Formacao_Profissional.aspx" title="Rede de Centros">Rede de Centros</a></td></tr>
+					<tr><td>Rede de Centros</td><td><a href="http://www.iefp.pt/iefp/rede/Paginas/Home.aspx" title="Rede de Centros">Rede de Centros</a></td></tr>
+					<tr><td>Centro de Reabilitação Profissional de Alcoitão</td><td><a href="http://www.iefp.pt/iefp/rede/Paginas/PesquisaCentros.aspx" title="Rede de Centros">Rede de Centros</a></td></tr>
+					<tr><td>Centro de Formação Profissional de Braga</td><td><a href="http://www.iefp.pt/iefp/rede/listagem/Paginas/269.aspx" title="Centro de Reabilitação Profissional de Alcoitão">Centro de Reabilitação Profissional de Alcoitão</a></td></tr>
+					<tr><td>Centro de Formação Profissional para o Sector Terciário do Porto</td><td><a href="http://www.iefp.pt/iefp/rede/listagem/Paginas/37.aspx" title="Centro de Formação Profissional de Braga">Centro de Formação Profissional de Braga</a></td></tr>
+					<tr><td>Centro de Formação Profissional do Porto</td><td><a href="http://www.iefp.pt/iefp/rede/listagem/Paginas/34.aspx" title="Centro de Formação Profissional para o Sector Terciário do Porto">Centro de Formação Profissional para o Sector Terciário do Porto</a></td></tr>
+					<tr><td>Centro de Formação Profissional de Rio Meão</td><td><a href="http://www.iefp.pt/iefp/rede/listagem/Paginas/35.aspx" title="Centro de Formação Profissional do Porto">Centro de Formação Profissional do Porto</a></td></tr>
+					<tr><td>Centro de Formação Profissional de Viana do Castelo</td><td><a href="http://www.iefp.pt/iefp/rede/listagem/Paginas/33.aspx" title="Centro de Formação Profissional de Rio Meão">Centro de Formação Profissional de Rio Meão</a></td></tr>
+					<tr><td>Centro de Formação Profissional de Vila Real</td><td><a href="http://www.iefp.pt/iefp/rede/listagem/Paginas/30.aspx" title="Centro de Formação Profissional de Viana do Castelo">Centro de Formação Profissional de Viana do Castelo</a></td></tr>
+					<tr><td>Centro de Formação Profissional de Águeda</td><td><a href="http://www.iefp.pt/iefp/rede/listagem/Paginas/32.aspx" title="Centro de Formação Profissional de Vila Real">Centro de Formação Profissional de Vila Real</a></td></tr>
+					<tr><td>Centro de Emprego e Formação Profissional de Arganil</td><td><a href="http://www.iefp.pt/iefp/rede/listagem/Paginas/63.aspx" title="Centro de Formação Profissional de Águeda">Centro de Formação Profissional de Águeda</a></td></tr>
+					<tr><td>Centro de Formação Profissional de Aveiro</td><td><a href="http://www.iefp.pt/iefp/rede/listagem/Paginas/51.aspx" title="Centro de Emprego e Formação Profissional de Arganil">Centro de Emprego e Formação Profissional de Arganil</a></td></tr>
+					<tr><td>Centro de Formação Profissional de Castelo Branco</td><td><a href="http://www.iefp.pt/iefp/rede/listagem/Paginas/57.aspx" title="Centro de Formação Profissional de Aveiro">Centro de Formação Profissional de Aveiro</a></td></tr>
+					<tr><td>Centro de Formação Profissional de Coimbra</td><td><a href="http://www.iefp.pt/iefp/rede/listagem/Paginas/59.aspx" title="Centro de Formação Profissional de Castelo Branco">Centro de Formação Profissional de Castelo Branco</a></td></tr>
+					<tr><td>Centro de Formação Profissional de Leiria</td><td><a href="http://www.iefp.pt/iefp/rede/listagem/Paginas/62.aspx" title="Centro de Formação Profissional de Coimbra">Centro de Formação Profissional de Coimbra</a></td></tr>
+					<tr><td>Centro de Formação Profissional da Guarda</td><td><a href="http://www.iefp.pt/iefp/rede/listagem/Paginas/270.aspx" title="Centro de Formação Profissional de Leiria">Centro de Formação Profissional de Leiria</a></td></tr>
+					<tr><td>Centro de Formação Profissional de Seia</td><td><a href="http://www.iefp.pt/iefp/rede/listagem/Paginas/61.aspx" title="Centro de Formação Profissional da Guarda">Centro de Formação Profissional da Guarda</a></td></tr>
+					<tr><td>Centro de Formação Profissional de Viseu</td><td><a href="http://www.iefp.pt/iefp/rede/listagem/Paginas/60.aspx" title="Centro de Formação Profissional de Seia">Centro de Formação Profissional de Seia</a></td></tr>
+					<tr><td>Centro de Formação Profissional de Alverca</td><td><a href="http://www.iefp.pt/iefp/rede/listagem/Paginas/58.aspx" title="Centro de Formação Profissional de Viseu">Centro de Formação Profissional de Viseu</a></td></tr>
+					<tr><td>Centro de Formação Profissional da Amadora</td><td><a href="http://www.iefp.pt/iefp/rede/listagem/Paginas/95.aspx" title="Centro de Formação Profissional de Alverca">Centro de Formação Profissional de Alverca</a></td></tr>
+					<tr><td>Centro de Formação Profissional para o Sector Terciário</td><td><a href="http://www.iefp.pt/iefp/rede/listagem/Paginas/90.aspx" title="Centro de Formação Profissional da Amadora">Centro de Formação Profissional da Amadora</a></td></tr>
+					<tr><td>Centro de Formação Profissional de Santarém</td><td><a href="http://www.iefp.pt/iefp/rede/listagem/Paginas/94.aspx" title="Centro de Formação Profissional para o Sector Terciário">Centro de Formação Profissional para o Sector Terciário</a></td></tr>
+					<tr><td>Centro de Formação Profissional do Seixal</td><td><a href="http://www.iefp.pt/iefp/rede/listagem/Paginas/91.aspx" title="Centro de Formação Profissional de Santarém">Centro de Formação Profissional de Santarém</a></td></tr>
+					<tr><td>Centro de Formação Profissional de Setúbal</td><td><a href="http://www.iefp.pt/iefp/rede/listagem/Paginas/92.aspx" title="Centro de Formação Profissional do Seixal">Centro de Formação Profissional do Seixal</a></td></tr>
+					<tr><td>Centro de Formação Profissional de Sintra</td><td><a href="http://www.iefp.pt/iefp/rede/listagem/Paginas/89.aspx" title="Centro de Formação Profissional de Setúbal">Centro de Formação Profissional de Setúbal</a></td></tr>
+					<tr><td>Centro de Formação Profissional de Tomar</td><td><a href="http://www.iefp.pt/iefp/rede/listagem/Paginas/278.aspx" title="Centro de Formação Profissional de Sintra">Centro de Formação Profissional de Sintra</a></td></tr>
+					<tr><td>Centro de Formação Profissional de Aljustrel</td><td><a href="http://www.iefp.pt/iefp/rede/listagem/Paginas/88.aspx" title="Centro de Formação Profissional de Tomar">Centro de Formação Profissional de Tomar</a></td></tr>
+					<tr><td>Centro de Formação Profissional de Beja</td><td><a href="http://www.iefp.pt/iefp/rede/listagem/Paginas/113.aspx" title="Centro de Formação Profissional de Aljustrel">Centro de Formação Profissional de Aljustrel</a></td></tr>
+					<tr><td>Centro de Formação Profissional de Évora</td><td><a href="http://www.iefp.pt/iefp/rede/listagem/Paginas/111.aspx" title="Centro de Formação Profissional de Beja">Centro de Formação Profissional de Beja</a></td></tr>
+					<tr><td>Centro de Formação Profissional de Portalegre</td><td><a href="http://www.iefp.pt/iefp/rede/listagem/Paginas/109.aspx" title="Centro de Formação Profissional de Évora">Centro de Formação Profissional de Évora</a></td></tr>
+					<tr><td>Centro de Formação Profissional de Santiago do Cacém</td><td><a href="http://www.iefp.pt/iefp/rede/listagem/Paginas/110.aspx" title="Centro de Formação Profissional de Portalegre">Centro de Formação Profissional de Portalegre</a></td></tr>
+					<tr><td>Centro de Formação Profissional de Faro</td><td><a href="http://www.iefp.pt/iefp/rede/listagem/Paginas/108.aspx" title="Centro de Formação Profissional de Santiago do Cacém">Centro de Formação Profissional de Santiago do Cacém</a></td></tr>
+					<tr><td>Centro de Emprego e Formação Profissional da Guarda</td><td><a href="http://www.iefp.pt/iefp/rede/listagem/Paginas/120.aspx" title="Centro de Formação Profissional de Faro">Centro de Formação Profissional de Faro</a></td></tr>
+					<tr><td>Centro de Emprego e Formação Profissional de Seia</td><td><a href="http://www.iefp.pt/iefp/rede/listagem/Paginas/48.aspx" title="Centro de Emprego e Formação Profissional da Guarda">Centro de Emprego e Formação Profissional da Guarda</a></td></tr>
+					<tr><td>Centro de Emprego e Formação Profissional de Ponte de Sôr</td><td><a href="http://www.iefp.pt/iefp/rede/listagem/Paginas/54.aspx" title="Centro de Emprego e Formação Profissional de Seia">Centro de Emprego e Formação Profissional de Seia</a></td></tr>
+					<tr><td>Centro de Emprego e Formação Profissional de Portimão</td><td><a href="http://www.iefp.pt/iefp/rede/listagem/Paginas/105.aspx" title="Centro de Emprego e Formação Profissional de Ponte de Sôr">Centro de Emprego e Formação Profissional de Ponte de Sôr</a></td></tr>
+					<tr><td>Orçamentos</td><td><a href="http://www.iefp.pt/iefp/rede/listagem/Paginas/116.aspx" title="Centro de Emprego e Formação Profissional de Portimão">Centro de Emprego e Formação Profissional de Portimão</a></td></tr>
+					<tr><td>A Actividade do IEFP</td><td><a href="http://www.iefp.pt/iefp/sobre/Actividade/Orcamentos/Paginas/Home.aspx" title="Orçamentos">Orçamentos</a></td></tr>
+					<tr><td>Planos de Actividades</td><td><a href="http://www.iefp.pt/iefp/sobre/Actividade/Paginas/Home.aspx" title="A Actividade do IEFP">A Actividade do IEFP</a></td></tr>
+					<tr><td>Relatórios de Actividades</td><td><a href="http://www.iefp.pt/iefp/sobre/Actividade/PlanoActividades/Paginas/Home.aspx" title="Planos de Actividades">Planos de Actividades</a></td></tr>
+					<tr><td>Concursos Públicos de Aquisição</td><td><a href="http://www.iefp.pt/iefp/sobre/Actividade/Relatorios/Paginas/Home.aspx" title="Relatórios de Actividades">Relatórios de Actividades</a></td></tr>
+					<tr><td>Sobre o IEFP</td><td><a href="http://www.iefp.pt/iefp/sobre/CPAquisicao/Paginas/Comunicado_Fornecedores.aspx" title="Concursos Públicos de Aquisição">Concursos Públicos de Aquisição</a></td></tr>
+					<tr><td>Sobre o IEFP</td><td><a href="http://www.iefp.pt/iefp/sobre/Paginas/Home.aspx" title="Sobre o IEFP">Sobre o IEFP</a></td></tr>
+					<tr><td>Sobre o IEFP</td><td><a href="http://www.iefp.pt/iefp/sobre/Paginas/UmaIntervencaoParticipada.aspx" title="Sobre o IEFP">Sobre o IEFP</a></td></tr>
+					<tr><td>Uma Instituição com História</td><td><a href="http://www.iefp.pt/iefp/sobre/Paginas/ProjectosCooperacao.aspx" title="Sobre o IEFP">Sobre o IEFP</a></td></tr>
+					<tr><td>Organização dos Serviços</td><td><a href="http://www.iefp.pt/iefp/sobre/instituicao/Historia/Paginas/Home.aspx" title="Uma Instituição com História">Uma Instituição com História</a></td></tr>
+					<tr><td>A Instituição</td><td><a href="http://www.iefp.pt/iefp/sobre/instituicao/OrganizacaoServicos/Paginas/OrganizacaoServicos.aspx" title="Organização dos Serviços">Organização dos Serviços</a></td></tr>
+					<tr><td>A Instituição</td><td><a href="http://www.iefp.pt/iefp/sobre/instituicao/Paginas/Home.aspx" title="A Instituição">A Instituição</a></td></tr>
+					<tr><td>Instrumentos de Gestão</td><td><a href="http://www.iefp.pt/iefp/sobre/instituicao/Paginas/ObjectivosIEFP.aspx" title="A Instituição">A Instituição</a></td></tr>
+					<tr><td>Organização</td><td><a href="http://www.iefp.pt/iefp/sobre/organizacao/InstrumentosGestao/Paginas/InstrumentosGestao.aspx" title="Instrumentos de Gestão">Instrumentos de Gestão</a></td></tr>
+					<tr><td>Organização</td><td><a href="http://www.iefp.pt/iefp/sobre/organizacao/Paginas/Organizacao.aspx" title="Organização">Organização</a></td></tr>
+					<tr><td>Organização</td><td><a href="http://www.iefp.pt/iefp/sobre/organizacao/Paginas/2010.aspx" title="Organização">Organização</a></td></tr>
+					<tr><td>Recursos Humanos</td><td><a href="http://www.iefp.pt/iefp/sobre/organizacao/Paginas/2011.aspx" title="Organização">Organização</a></td></tr>
+					<tr><td>Notícias e Eventos</td><td><a href="http://www.iefp.pt/iefp/sobre/organizacao/RecursosHumanos/Paginas/RecursosHumanos.aspx" title="Recursos Humanos">Recursos Humanos</a></td></tr>
+					<tr><td>Período de candidaturas - Medidas Contrato Emprego Inserção e Contrato Emprego Inserção+</td><td><a href="http://www.iefp.pt/noticias/Paginas/Home.aspx" title="Notícias e Eventos">Notícias e Eventos</a></td></tr>
+					<tr><td>Norway: Enerconsult looking for Engineers within Hydropower development</td><td><a href="http://www.iefp.pt/noticias/Paginas/ContratoEmpregoInsercaoPeriodocandidaturas.aspx" title="Período de candidaturas - Medidas Contrato Emprego Inserção e Contrato Emprego Inserção+">Período de candidaturas - Medidas Contrato Emprego Inserção e Contrato Emprego Inserção+</a></td></tr>
+					<tr><td>Pretende trabalhar na Alemanha no sector do Turismo, Hotelaria e Restauração?</td><td><a href="http://www.iefp.pt/noticias/Paginas/NorwayEnerconsultlookingforEngineerswithinHydropowerdevelopment.aspx" title="Norway: Enerconsult looking for Engineers within Hydropower development">Norway: Enerconsult looking for Engineers within Hydropower development</a></td></tr>
+					<tr><td>Programa de Estágios Profissionais (Portaria n.º 92/2011, de 28/02) – Período de candidaturas</td><td><a href="http://www.iefp.pt/noticias/Paginas/PretendetrabalharAlemanhasectorTurismoHotelariaRestauracao.aspx" title="Pretende trabalhar na Alemanha no sector do Turismo, Hotelaria e Restauração?">Pretende trabalhar na Alemanha no sector do Turismo, Hotelaria e Restauração?</a></td></tr>
+					<tr><td>Isenção da certificação da aptidão pedagógica de formador dos docentes portadores de qualificação profissional para a docência e dos docentes do ensino superior universitário e politécnico</td><td><a href="http://www.iefp.pt/noticias/Paginas/ProgramaEstagiosProfissionais_Periodocandidaturas.aspx" title="Programa de Estágios Profissionais (Portaria n.º 92/2011, de 28/02) – Período de candidaturas">Programa de Estágios Profissionais (Portaria n.º 92/2011, de 28/02) – Período de candidaturas</a></td></tr>
+					<tr><td>POPH</td><td><a href="http://www.iefp.pt/noticias/Paginas/Isencao_certificacao_aptidao_pedagogica_formador_docentes_portadores_qualificacao_profissional_docencia_docentes.aspx" title="Isenção da certificação da aptidão pedagógica de formador dos docentes portadores de qualificação profissional para a docência e dos docentes do ensino superior universitário e politécnico">Isenção da certificação da aptidão pedagógica de formador dos docentes portadores de qualificação profissional para a docência e dos docentes do ensino superior universitário e politécnico</a></td></tr>
+					<tr><td>POPH</td><td><a href="http://www.iefp.pt/poph/Paginas/POPH.aspx" title="POPH">POPH</a></td></tr>
+					<tr><td>POPH</td><td><a href="http://www.iefp.pt/poph/Paginas/Organismo_Intermedio.aspx" title="POPH">POPH</a></td></tr>
+					<tr><td>POPH</td><td><a href="http://www.iefp.pt/poph/Paginas/AnunciosAberturaCandidaturas.aspx" title="POPH">POPH</a></td></tr></table><table border="0" cellspacing="0" cellpadding="0" class="ta1"><colgroup><col width="99"/></colgroup>
+
+
+
+<!-- data ends here --->
+
+
 			</tbody> 
 			<tfoot> 
 				<tr> 
@@ -51,14 +345,11 @@
 	</div>
 	
 	<div class="grid_3 shadow google_ads omega">
-		<p><img src="https://www.google.com/adsense/static/en_US/images/160x600.gif"/></p>
+
 	</div>
 	
-	</div>
-
-
 </div>
-<a href="http://www.google.com">texto</a>
 
 </body>
+
 </html>
